@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6506F37A1C39528B0096C08E /* TitleBlue.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6506F3771C39528B0096C08E /* TitleBlue.sks */; };
+		6506F37B1C39528B0096C08E /* TitleGreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6506F3781C39528B0096C08E /* TitleGreen.sks */; };
+		6506F37C1C39528B0096C08E /* TitleRed.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6506F3791C39528B0096C08E /* TitleRed.sks */; };
+		6506F37F1C3952A80096C08E /* TitleCyan.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6506F37D1C3952A80096C08E /* TitleCyan.sks */; };
+		6506F3801C3952A80096C08E /* TitlePurple.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6506F37E1C3952A80096C08E /* TitlePurple.sks */; };
+		650735071C8005DB001384F9 /* Adventure4-4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650735021C8005DB001384F9 /* Adventure4-4.sks */; };
+		650735081C8005DB001384F9 /* Adventure4-5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650735031C8005DB001384F9 /* Adventure4-5.sks */; };
+		650735091C8005DB001384F9 /* Adventure4-6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650735041C8005DB001384F9 /* Adventure4-6.sks */; };
+		6507350A1C8005DB001384F9 /* Adventure4-7.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650735051C8005DB001384F9 /* Adventure4-7.sks */; };
+		6507350B1C8005DB001384F9 /* Adventure4-8.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650735061C8005DB001384F9 /* Adventure4-8.sks */; };
+		6507350D1C801175001384F9 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6507350C1C801174001384F9 /* win.mp3 */; };
+		6507350F1C80259D001384F9 /* GameAdventureOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6507350E1C80259D001384F9 /* GameAdventureOver.sks */; };
+		650735111C803D02001384F9 /* Adventure5-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650735101C803D02001384F9 /* Adventure5-1.sks */; };
+		650735131C803DC1001384F9 /* Adventure5-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650735121C803DC1001384F9 /* Adventure5-2.sks */; };
+		650735151C803E13001384F9 /* Adventure5-3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650735141C803E13001384F9 /* Adventure5-3.sks */; };
+		650735171C803E56001384F9 /* Adventure5-4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650735161C803E56001384F9 /* Adventure5-4.sks */; };
+		650735191C803F44001384F9 /* Adventure5-5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650735181C803F44001384F9 /* Adventure5-5.sks */; };
+		6507351B1C803F99001384F9 /* Adventure5-6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6507351A1C803F99001384F9 /* Adventure5-6.sks */; };
+		6507351D1C803FF3001384F9 /* Adventure5-7.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6507351C1C803FF3001384F9 /* Adventure5-7.sks */; };
+		6507351F1C804097001384F9 /* Adventure5-8.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6507351E1C804097001384F9 /* Adventure5-8.sks */; };
+		650C44201C82C82800736F9E /* GameConfirmScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 650C441F1C82C82800736F9E /* GameConfirmScene.sks */; };
+		651025B91C65B334000B45F1 /* GreenPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 651025B81C65B334000B45F1 /* GreenPoof.sks */; };
+		65123FFE1BA90AF0007C4B01 /* GameSharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65123FFD1BA90AF0007C4B01 /* GameSharedFunctions.swift */; };
+		6513964B1CC4D5F7005EE98B /* GameMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6513964A1CC4D5F7005EE98B /* GameMenuScene.sks */; };
+		6513964D1CC4E0FD005EE98B /* GameMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6513964C1CC4E0FD005EE98B /* GameMenuScene.swift */; };
+		651572431C7EC7CF00B2D9EF /* Adventure1-8.sks in Resources */ = {isa = PBXBuildFile; fileRef = 651572421C7EC7CF00B2D9EF /* Adventure1-8.sks */; };
+		651AD2FD1C61C57900465716 /* title.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651AD2FC1C61C57900465716 /* title.mp3 */; };
+		6524857B1B9EBE7E0098A60F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524857A1B9EBE7E0098A60F /* AppDelegate.swift */; };
+		6524857D1B9EBE7E0098A60F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6524857C1B9EBE7E0098A60F /* GameScene.swift */; };
+		6524857F1B9EBE7E0098A60F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6524857E1B9EBE7E0098A60F /* GameScene.sks */; };
+		652485811B9EBE7E0098A60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652485801B9EBE7E0098A60F /* Assets.xcassets */; };
+		652485841B9EBE7E0098A60F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 652485821B9EBE7E0098A60F /* MainMenu.xib */; };
+		6524858C1B9EC28A0098A60F /* GameChallengeScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6524858B1B9EC28A0098A60F /* GameChallengeScene.sks */; };
+		6524858E1B9EC36F0098A60F /* Game1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6524858D1B9EC36F0098A60F /* Game1.sks */; };
+		652485901B9EC37A0098A60F /* Game2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6524858F1B9EC37A0098A60F /* Game2.sks */; };
+		652485921B9EC3820098A60F /* Game3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 652485911B9EC3820098A60F /* Game3.sks */; };
+		652485941B9EC3890098A60F /* Game4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 652485931B9EC3890098A60F /* Game4.sks */; };
+		652B6C151C8335AD00AD1203 /* spark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 652B6C141C8335AD00AD1203 /* spark.mp3 */; };
+		652DEF591BA02A0A00C8E10E /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 652DEF581BA02A0A00C8E10E /* GameOver.sks */; };
+		652DEF5B1BA0329300C8E10E /* Game1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEF5A1BA0329300C8E10E /* Game1.swift */; };
+		652DEF5D1BA032AA00C8E10E /* Game2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEF5C1BA032AA00C8E10E /* Game2.swift */; };
+		652DEF5F1BA032B100C8E10E /* Game3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEF5E1BA032B100C8E10E /* Game3.swift */; };
+		652DEF611BA032B700C8E10E /* Game4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652DEF601BA032B700C8E10E /* Game4.swift */; };
+		65336EAA1C43515500803E55 /* Back1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65336EA91C43515500803E55 /* Back1.sks */; };
+		65336EAE1C4351F100803E55 /* Back2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65336EAB1C4351F100803E55 /* Back2.sks */; };
+		65336EAF1C4351F100803E55 /* Back3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65336EAC1C4351F100803E55 /* Back3.sks */; };
+		65336EB01C4351F100803E55 /* Back4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65336EAD1C4351F100803E55 /* Back4.sks */; };
+		6534B7A91CD1E1CF009B9264 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6534B7AB1CD1E1CF009B9264 /* Localizable.strings */; };
+		654125F21CF6F440008B3EA7 /* Breathing.sks in Resources */ = {isa = PBXBuildFile; fileRef = 654125F11CF6F440008B3EA7 /* Breathing.sks */; };
+		654F01711C7EF3E1006CE29B /* Adventure4-3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 654F01701C7EF3E1006CE29B /* Adventure4-3.sks */; };
+		656060AE1C7ECC88000EB738 /* Adventure1-9.sks in Resources */ = {isa = PBXBuildFile; fileRef = 656060AD1C7ECC88000EB738 /* Adventure1-9.sks */; };
+		656060B01C7ED01C000EB738 /* Adventure1-10.sks in Resources */ = {isa = PBXBuildFile; fileRef = 656060AF1C7ED01C000EB738 /* Adventure1-10.sks */; };
+		656060B21C7ED03F000EB738 /* Adventure1-11.sks in Resources */ = {isa = PBXBuildFile; fileRef = 656060B11C7ED03F000EB738 /* Adventure1-11.sks */; };
+		656060B41C7ED314000EB738 /* Adventure1-12.sks in Resources */ = {isa = PBXBuildFile; fileRef = 656060B31C7ED314000EB738 /* Adventure1-12.sks */; };
+		656060B61C7ED45E000EB738 /* Adventure1-13.sks in Resources */ = {isa = PBXBuildFile; fileRef = 656060B51C7ED45E000EB738 /* Adventure1-13.sks */; };
+		656060B81C7ED4EE000EB738 /* Adventure1-14.sks in Resources */ = {isa = PBXBuildFile; fileRef = 656060B71C7ED4EE000EB738 /* Adventure1-14.sks */; };
+		656060BA1C7ED584000EB738 /* Adventure1-15.sks in Resources */ = {isa = PBXBuildFile; fileRef = 656060B91C7ED584000EB738 /* Adventure1-15.sks */; };
+		656060BC1C7ED6FE000EB738 /* Adventure1-16.sks in Resources */ = {isa = PBXBuildFile; fileRef = 656060BB1C7ED6FE000EB738 /* Adventure1-16.sks */; };
+		656060BE1C7ED792000EB738 /* Adventure1-17.sks in Resources */ = {isa = PBXBuildFile; fileRef = 656060BD1C7ED792000EB738 /* Adventure1-17.sks */; };
+		6581CF8C1BA6A081001C6E45 /* AndroidPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF781BA6A081001C6E45 /* AndroidPoof.sks */; };
+		6581CF8D1BA6A081001C6E45 /* BluePoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF791BA6A081001C6E45 /* BluePoof.sks */; };
+		6581CF8E1BA6A081001C6E45 /* CyanPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF7A1BA6A081001C6E45 /* CyanPoof.sks */; };
+		6581CF8F1BA6A081001C6E45 /* SparkPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF7B1BA6A081001C6E45 /* SparkPoof.sks */; };
+		6581CF901BA6A081001C6E45 /* PurplePoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF7C1BA6A081001C6E45 /* PurplePoof.sks */; };
+		6581CF911BA6A081001C6E45 /* RedPoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF7D1BA6A081001C6E45 /* RedPoof.sks */; };
+		6581CF921BA6A081001C6E45 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF7E1BA6A081001C6E45 /* spark.png */; };
+		6581CF931BA6A081001C6E45 /* blue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF801BA6A081001C6E45 /* blue.mp3 */; };
+		6581CF941BA6A081001C6E45 /* cyan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF811BA6A081001C6E45 /* cyan.mp3 */; };
+		6581CF951BA6A081001C6E45 /* game1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF821BA6A081001C6E45 /* game1.mp3 */; };
+		6581CF961BA6A081001C6E45 /* game2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF831BA6A081001C6E45 /* game2.mp3 */; };
+		6581CF971BA6A081001C6E45 /* game3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF841BA6A081001C6E45 /* game3.mp3 */; };
+		6581CF981BA6A081001C6E45 /* game4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF851BA6A081001C6E45 /* game4.mp3 */; };
+		6581CF991BA6A081001C6E45 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF861BA6A081001C6E45 /* lose.mp3 */; };
+		6581CF9A1BA6A081001C6E45 /* power.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF871BA6A081001C6E45 /* power.mp3 */; };
+		6581CF9B1BA6A081001C6E45 /* purple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF881BA6A081001C6E45 /* purple.mp3 */; };
+		6581CF9C1BA6A081001C6E45 /* red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF891BA6A081001C6E45 /* red.mp3 */; };
+		6581CF9D1BA6A081001C6E45 /* shoot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF8A1BA6A081001C6E45 /* shoot.mp3 */; };
+		6581CF9E1BA6A081001C6E45 /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6581CF8B1BA6A081001C6E45 /* theme.mp3 */; };
+		659714321C8963290017A81E /* Spark1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 659714311C8963290017A81E /* Spark1.sks */; };
+		659714371C8964620017A81E /* Spark2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 659714331C8964620017A81E /* Spark2.sks */; };
+		659714381C8964620017A81E /* Spark3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 659714341C8964620017A81E /* Spark3.sks */; };
+		6597143F1C8BFB650017A81E /* Spark4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6597143E1C8BFB650017A81E /* Spark4.sks */; };
+		659A33D81C75C70E00FBF8C0 /* respawn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 659A33D71C75C70E00FBF8C0 /* respawn.mp3 */; };
+		65A3CC511CD0A85900FA5198 /* Bleed.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65A3CC501CD0A85900FA5198 /* Bleed.sks */; };
+		65A3CC531CD0DD8700FA5198 /* blast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65A3CC521CD0DD8700FA5198 /* blast.mp3 */; };
+		65AE3BEA1C7D68D000AFA243 /* SmitePoof.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65AE3BE91C7D68D000AFA243 /* SmitePoof.sks */; };
+		65AE3BED1C7E83AF00AFA243 /* GameAdventureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE3BEC1C7E83AF00AFA243 /* GameAdventureController.swift */; };
+		65AE3BEF1C7E852800AFA243 /* Adventure1-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65AE3BEE1C7E852800AFA243 /* Adventure1-1.sks */; };
+		65AE3BF11C7E8DB600AFA243 /* StoryDock.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65AE3BF01C7E8DB600AFA243 /* StoryDock.sks */; };
+		65AE3BF31C7E90BD00AFA243 /* Adventure1-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65AE3BF21C7E90BD00AFA243 /* Adventure1-2.sks */; };
+		65AE3BF91C7E950A00AFA243 /* Adventure1-3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65AE3BF41C7E950A00AFA243 /* Adventure1-3.sks */; };
+		65AE3BFA1C7E950A00AFA243 /* Adventure1-4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65AE3BF51C7E950A00AFA243 /* Adventure1-4.sks */; };
+		65AE3BFB1C7E950A00AFA243 /* Adventure1-5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65AE3BF61C7E950A00AFA243 /* Adventure1-5.sks */; };
+		65AE3BFC1C7E950A00AFA243 /* Adventure1-6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65AE3BF71C7E950A00AFA243 /* Adventure1-6.sks */; };
+		65AE3BFD1C7E950A00AFA243 /* Adventure1-7.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65AE3BF81C7E950A00AFA243 /* Adventure1-7.sks */; };
+		65B707C01C7EEA7D0023AE7C /* Adventure4-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65B707BF1C7EEA7D0023AE7C /* Adventure4-1.sks */; };
+		65B707C21C7EF1890023AE7C /* Adventure4-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65B707C11C7EF1890023AE7C /* Adventure4-2.sks */; };
+		65C8035B1C7EDF1E00A3E9BF /* Adventure1-18.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C8035A1C7EDF1E00A3E9BF /* Adventure1-18.sks */; };
+		65C8035D1C7EE16700A3E9BF /* Adventure2-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C8035C1C7EE16700A3E9BF /* Adventure2-1.sks */; };
+		65C8035F1C7EE1A200A3E9BF /* Adventure2-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C8035E1C7EE1A200A3E9BF /* Adventure2-2.sks */; };
+		65C803611C7EE2E100A3E9BF /* Adventure2-3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C803601C7EE2E100A3E9BF /* Adventure2-3.sks */; };
+		65C803631C7EE4F000A3E9BF /* Adventure3-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C803621C7EE4F000A3E9BF /* Adventure3-1.sks */; };
+		65C803651C7EE59100A3E9BF /* Adventure3-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C803641C7EE59100A3E9BF /* Adventure3-2.sks */; };
+		65C803671C7EE65100A3E9BF /* Adventure3-3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C803661C7EE65100A3E9BF /* Adventure3-3.sks */; };
+		65C803691C7EE6DE00A3E9BF /* Adventure3-4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C803681C7EE6DD00A3E9BF /* Adventure3-4.sks */; };
+		65C8036B1C7EE79900A3E9BF /* Adventure3-5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C8036A1C7EE79900A3E9BF /* Adventure3-5.sks */; };
+		65C8036D1C7EE7F000A3E9BF /* Adventure3-6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 65C8036C1C7EE7EF00A3E9BF /* Adventure3-6.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E05428121B960650067EF75 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		4E05428221B960650067EF75 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6506F3771C39528B0096C08E /* TitleBlue.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleBlue.sks; sourceTree = "<group>"; };
+		6506F3781C39528B0096C08E /* TitleGreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleGreen.sks; sourceTree = "<group>"; };
+		6506F3791C39528B0096C08E /* TitleRed.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleRed.sks; sourceTree = "<group>"; };
+		6506F37D1C3952A80096C08E /* TitleCyan.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleCyan.sks; sourceTree = "<group>"; };
+		6506F37E1C3952A80096C08E /* TitlePurple.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitlePurple.sks; sourceTree = "<group>"; };
+		650735021C8005DB001384F9 /* Adventure4-4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure4-4.sks"; sourceTree = "<group>"; };
+		650735031C8005DB001384F9 /* Adventure4-5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure4-5.sks"; sourceTree = "<group>"; };
+		650735041C8005DB001384F9 /* Adventure4-6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure4-6.sks"; sourceTree = "<group>"; };
+		650735051C8005DB001384F9 /* Adventure4-7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure4-7.sks"; sourceTree = "<group>"; };
+		650735061C8005DB001384F9 /* Adventure4-8.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure4-8.sks"; sourceTree = "<group>"; };
+		6507350C1C801174001384F9 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		6507350E1C80259D001384F9 /* GameAdventureOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameAdventureOver.sks; sourceTree = "<group>"; };
+		650735101C803D02001384F9 /* Adventure5-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure5-1.sks"; sourceTree = "<group>"; };
+		650735121C803DC1001384F9 /* Adventure5-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure5-2.sks"; sourceTree = "<group>"; };
+		650735141C803E13001384F9 /* Adventure5-3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure5-3.sks"; sourceTree = "<group>"; };
+		650735161C803E56001384F9 /* Adventure5-4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure5-4.sks"; sourceTree = "<group>"; };
+		650735181C803F44001384F9 /* Adventure5-5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure5-5.sks"; sourceTree = "<group>"; };
+		6507351A1C803F99001384F9 /* Adventure5-6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure5-6.sks"; sourceTree = "<group>"; };
+		6507351C1C803FF3001384F9 /* Adventure5-7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure5-7.sks"; sourceTree = "<group>"; };
+		6507351E1C804097001384F9 /* Adventure5-8.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure5-8.sks"; sourceTree = "<group>"; };
+		650C441F1C82C82800736F9E /* GameConfirmScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameConfirmScene.sks; sourceTree = "<group>"; };
+		651025B81C65B334000B45F1 /* GreenPoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GreenPoof.sks; sourceTree = "<group>"; };
+		65123FFD1BA90AF0007C4B01 /* GameSharedFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSharedFunctions.swift; sourceTree = "<group>"; };
+		6513964A1CC4D5F7005EE98B /* GameMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameMenuScene.sks; sourceTree = "<group>"; };
+		6513964C1CC4E0FD005EE98B /* GameMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMenuScene.swift; sourceTree = "<group>"; };
+		6513964E1CC4E131005EE98B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		651572421C7EC7CF00B2D9EF /* Adventure1-8.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-8.sks"; sourceTree = "<group>"; };
+		651AD2FC1C61C57900465716 /* title.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = title.mp3; sourceTree = "<group>"; };
+		652485771B9EBE7E0098A60F /* Finder Zen 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finder Zen 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6524857A1B9EBE7E0098A60F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6524857C1B9EBE7E0098A60F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		6524857E1B9EBE7E0098A60F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		652485801B9EBE7E0098A60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		652485831B9EBE7E0098A60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		652485851B9EBE7E0098A60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6524858B1B9EC28A0098A60F /* GameChallengeScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameChallengeScene.sks; sourceTree = "<group>"; };
+		6524858D1B9EC36F0098A60F /* Game1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Game1.sks; sourceTree = "<group>"; };
+		6524858F1B9EC37A0098A60F /* Game2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Game2.sks; sourceTree = "<group>"; };
+		652485911B9EC3820098A60F /* Game3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Game3.sks; sourceTree = "<group>"; };
+		652485931B9EC3890098A60F /* Game4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Game4.sks; sourceTree = "<group>"; };
+		652B6C141C8335AD00AD1203 /* spark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spark.mp3; sourceTree = "<group>"; };
+		652DEF581BA02A0A00C8E10E /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
+		652DEF5A1BA0329300C8E10E /* Game1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game1.swift; sourceTree = "<group>"; };
+		652DEF5C1BA032AA00C8E10E /* Game2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game2.swift; sourceTree = "<group>"; };
+		652DEF5E1BA032B100C8E10E /* Game3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game3.swift; sourceTree = "<group>"; };
+		652DEF601BA032B700C8E10E /* Game4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game4.swift; sourceTree = "<group>"; };
+		65336EA91C43515500803E55 /* Back1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Back1.sks; sourceTree = "<group>"; };
+		65336EAB1C4351F100803E55 /* Back2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Back2.sks; sourceTree = "<group>"; };
+		65336EAC1C4351F100803E55 /* Back3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Back3.sks; sourceTree = "<group>"; };
+		65336EAD1C4351F100803E55 /* Back4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Back4.sks; sourceTree = "<group>"; };
+		6534B7AA1CD1E1CF009B9264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6534B7AC1CD1E1D4009B9264 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6534B7AD1CD1E1D9009B9264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		654125F11CF6F440008B3EA7 /* Breathing.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Breathing.sks; sourceTree = "<group>"; };
+		654F01701C7EF3E1006CE29B /* Adventure4-3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure4-3.sks"; sourceTree = "<group>"; };
+		656060AD1C7ECC88000EB738 /* Adventure1-9.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-9.sks"; sourceTree = "<group>"; };
+		656060AF1C7ED01C000EB738 /* Adventure1-10.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-10.sks"; sourceTree = "<group>"; };
+		656060B11C7ED03F000EB738 /* Adventure1-11.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-11.sks"; sourceTree = "<group>"; };
+		656060B31C7ED314000EB738 /* Adventure1-12.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-12.sks"; sourceTree = "<group>"; };
+		656060B51C7ED45E000EB738 /* Adventure1-13.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-13.sks"; sourceTree = "<group>"; };
+		656060B71C7ED4EE000EB738 /* Adventure1-14.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-14.sks"; sourceTree = "<group>"; };
+		656060B91C7ED584000EB738 /* Adventure1-15.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-15.sks"; sourceTree = "<group>"; };
+		656060BB1C7ED6FE000EB738 /* Adventure1-16.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-16.sks"; sourceTree = "<group>"; };
+		656060BD1C7ED792000EB738 /* Adventure1-17.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-17.sks"; sourceTree = "<group>"; };
+		6581CF781BA6A081001C6E45 /* AndroidPoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AndroidPoof.sks; sourceTree = "<group>"; };
+		6581CF791BA6A081001C6E45 /* BluePoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BluePoof.sks; sourceTree = "<group>"; };
+		6581CF7A1BA6A081001C6E45 /* CyanPoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CyanPoof.sks; sourceTree = "<group>"; };
+		6581CF7B1BA6A081001C6E45 /* SparkPoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkPoof.sks; sourceTree = "<group>"; };
+		6581CF7C1BA6A081001C6E45 /* PurplePoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PurplePoof.sks; sourceTree = "<group>"; };
+		6581CF7D1BA6A081001C6E45 /* RedPoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RedPoof.sks; sourceTree = "<group>"; };
+		6581CF7E1BA6A081001C6E45 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		6581CF801BA6A081001C6E45 /* blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blue.mp3; sourceTree = "<group>"; };
+		6581CF811BA6A081001C6E45 /* cyan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cyan.mp3; sourceTree = "<group>"; };
+		6581CF821BA6A081001C6E45 /* game1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game1.mp3; sourceTree = "<group>"; };
+		6581CF831BA6A081001C6E45 /* game2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game2.mp3; sourceTree = "<group>"; };
+		6581CF841BA6A081001C6E45 /* game3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game3.mp3; sourceTree = "<group>"; };
+		6581CF851BA6A081001C6E45 /* game4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game4.mp3; sourceTree = "<group>"; };
+		6581CF861BA6A081001C6E45 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		6581CF871BA6A081001C6E45 /* power.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = power.mp3; sourceTree = "<group>"; };
+		6581CF881BA6A081001C6E45 /* purple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = purple.mp3; sourceTree = "<group>"; };
+		6581CF891BA6A081001C6E45 /* red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = red.mp3; sourceTree = "<group>"; };
+		6581CF8A1BA6A081001C6E45 /* shoot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shoot.mp3; sourceTree = "<group>"; };
+		6581CF8B1BA6A081001C6E45 /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
+		659714311C8963290017A81E /* Spark1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark1.sks; sourceTree = "<group>"; };
+		659714331C8964620017A81E /* Spark2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark2.sks; sourceTree = "<group>"; };
+		659714341C8964620017A81E /* Spark3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark3.sks; sourceTree = "<group>"; };
+		6597143E1C8BFB650017A81E /* Spark4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark4.sks; sourceTree = "<group>"; };
+		659A33D71C75C70E00FBF8C0 /* respawn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = respawn.mp3; sourceTree = "<group>"; };
+		65A3CC501CD0A85900FA5198 /* Bleed.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Bleed.sks; sourceTree = "<group>"; };
+		65A3CC521CD0DD8700FA5198 /* blast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blast.mp3; sourceTree = "<group>"; };
+		65AE3BE91C7D68D000AFA243 /* SmitePoof.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmitePoof.sks; sourceTree = "<group>"; };
+		65AE3BEC1C7E83AF00AFA243 /* GameAdventureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameAdventureController.swift; sourceTree = "<group>"; };
+		65AE3BEE1C7E852800AFA243 /* Adventure1-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-1.sks"; sourceTree = "<group>"; };
+		65AE3BF01C7E8DB600AFA243 /* StoryDock.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StoryDock.sks; sourceTree = "<group>"; };
+		65AE3BF21C7E90BD00AFA243 /* Adventure1-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-2.sks"; sourceTree = "<group>"; };
+		65AE3BF41C7E950A00AFA243 /* Adventure1-3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-3.sks"; sourceTree = "<group>"; };
+		65AE3BF51C7E950A00AFA243 /* Adventure1-4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-4.sks"; sourceTree = "<group>"; };
+		65AE3BF61C7E950A00AFA243 /* Adventure1-5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-5.sks"; sourceTree = "<group>"; };
+		65AE3BF71C7E950A00AFA243 /* Adventure1-6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-6.sks"; sourceTree = "<group>"; };
+		65AE3BF81C7E950A00AFA243 /* Adventure1-7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-7.sks"; sourceTree = "<group>"; };
+		65B707BF1C7EEA7D0023AE7C /* Adventure4-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure4-1.sks"; sourceTree = "<group>"; };
+		65B707C11C7EF1890023AE7C /* Adventure4-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure4-2.sks"; sourceTree = "<group>"; };
+		65C8035A1C7EDF1E00A3E9BF /* Adventure1-18.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure1-18.sks"; sourceTree = "<group>"; };
+		65C8035C1C7EE16700A3E9BF /* Adventure2-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure2-1.sks"; sourceTree = "<group>"; };
+		65C8035E1C7EE1A200A3E9BF /* Adventure2-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure2-2.sks"; sourceTree = "<group>"; };
+		65C803601C7EE2E100A3E9BF /* Adventure2-3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure2-3.sks"; sourceTree = "<group>"; };
+		65C803621C7EE4F000A3E9BF /* Adventure3-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure3-1.sks"; sourceTree = "<group>"; };
+		65C803641C7EE59100A3E9BF /* Adventure3-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure3-2.sks"; sourceTree = "<group>"; };
+		65C803661C7EE65100A3E9BF /* Adventure3-3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure3-3.sks"; sourceTree = "<group>"; };
+		65C803681C7EE6DD00A3E9BF /* Adventure3-4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure3-4.sks"; sourceTree = "<group>"; };
+		65C8036A1C7EE79900A3E9BF /* Adventure3-5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure3-5.sks"; sourceTree = "<group>"; };
+		65C8036C1C7EE7EF00A3E9BF /* Adventure3-6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Adventure3-6.sks"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		652485741B9EBE7E0098A60F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6513964F1CC4E235005EE98B /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				6534B7AB1CD1E1CF009B9264 /* Localizable.strings */,
+			);
+			name = Localization;
+			path = Sounds/Localization;
+			sourceTree = "<group>";
+		};
+		6524856E1B9EBE7E0098A60F = {
+			isa = PBXGroup;
+			children = (
+				652485791B9EBE7E0098A60F /* Finder Zen 2 */,
+				652485781B9EBE7E0098A60F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		652485781B9EBE7E0098A60F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652485771B9EBE7E0098A60F /* Finder Zen 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		652485791B9EBE7E0098A60F /* Finder Zen 2 */ = {
+			isa = PBXGroup;
+			children = (
+				6524857A1B9EBE7E0098A60F /* AppDelegate.swift */,
+				6524857C1B9EBE7E0098A60F /* GameScene.swift */,
+				65123FFD1BA90AF0007C4B01 /* GameSharedFunctions.swift */,
+				6513964C1CC4E0FD005EE98B /* GameMenuScene.swift */,
+				652DEF5A1BA0329300C8E10E /* Game1.swift */,
+				652DEF5C1BA032AA00C8E10E /* Game2.swift */,
+				652DEF5E1BA032B100C8E10E /* Game3.swift */,
+				652DEF601BA032B700C8E10E /* Game4.swift */,
+				65AE3BEC1C7E83AF00AFA243 /* GameAdventureController.swift */,
+				6524857E1B9EBE7E0098A60F /* GameScene.sks */,
+				6524858B1B9EC28A0098A60F /* GameChallengeScene.sks */,
+				650C441F1C82C82800736F9E /* GameConfirmScene.sks */,
+				6513964A1CC4D5F7005EE98B /* GameMenuScene.sks */,
+				6524858D1B9EC36F0098A60F /* Game1.sks */,
+				6524858F1B9EC37A0098A60F /* Game2.sks */,
+				652485911B9EC3820098A60F /* Game3.sks */,
+				652485931B9EC3890098A60F /* Game4.sks */,
+				652DEF581BA02A0A00C8E10E /* GameOver.sks */,
+				6507350E1C80259D001384F9 /* GameAdventureOver.sks */,
+				654125F11CF6F440008B3EA7 /* Breathing.sks */,
+				652485801B9EBE7E0098A60F /* Assets.xcassets */,
+				652485821B9EBE7E0098A60F /* MainMenu.xib */,
+				652485851B9EBE7E0098A60F /* Info.plist */,
+				6581CF771BA6A081001C6E45 /* Particles */,
+				6581CF7F1BA6A081001C6E45 /* Sounds */,
+				6513964F1CC4E235005EE98B /* Localization */,
+				65AE3BEB1C7E839600AFA243 /* Adventure */,
+			);
+			path = "Finder Zen 2";
+			sourceTree = "<group>";
+		};
+		6581CF771BA6A081001C6E45 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				6581CF781BA6A081001C6E45 /* AndroidPoof.sks */,
+				6581CF791BA6A081001C6E45 /* BluePoof.sks */,
+				6581CF7A1BA6A081001C6E45 /* CyanPoof.sks */,
+				6581CF7B1BA6A081001C6E45 /* SparkPoof.sks */,
+				659714311C8963290017A81E /* Spark1.sks */,
+				659714331C8964620017A81E /* Spark2.sks */,
+				659714341C8964620017A81E /* Spark3.sks */,
+				6597143E1C8BFB650017A81E /* Spark4.sks */,
+				65AE3BE91C7D68D000AFA243 /* SmitePoof.sks */,
+				651025B81C65B334000B45F1 /* GreenPoof.sks */,
+				6581CF7C1BA6A081001C6E45 /* PurplePoof.sks */,
+				6581CF7D1BA6A081001C6E45 /* RedPoof.sks */,
+				6506F3771C39528B0096C08E /* TitleBlue.sks */,
+				6506F3781C39528B0096C08E /* TitleGreen.sks */,
+				6506F37D1C3952A80096C08E /* TitleCyan.sks */,
+				6506F3791C39528B0096C08E /* TitleRed.sks */,
+				6506F37E1C3952A80096C08E /* TitlePurple.sks */,
+				65A3CC501CD0A85900FA5198 /* Bleed.sks */,
+				65336EA91C43515500803E55 /* Back1.sks */,
+				65336EAB1C4351F100803E55 /* Back2.sks */,
+				65336EAC1C4351F100803E55 /* Back3.sks */,
+				65336EAD1C4351F100803E55 /* Back4.sks */,
+				6581CF7E1BA6A081001C6E45 /* spark.png */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		6581CF7F1BA6A081001C6E45 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6581CF801BA6A081001C6E45 /* blue.mp3 */,
+				6581CF811BA6A081001C6E45 /* cyan.mp3 */,
+				6581CF821BA6A081001C6E45 /* game1.mp3 */,
+				6581CF831BA6A081001C6E45 /* game2.mp3 */,
+				6581CF841BA6A081001C6E45 /* game3.mp3 */,
+				6581CF851BA6A081001C6E45 /* game4.mp3 */,
+				6581CF861BA6A081001C6E45 /* lose.mp3 */,
+				6581CF871BA6A081001C6E45 /* power.mp3 */,
+				65A3CC521CD0DD8700FA5198 /* blast.mp3 */,
+				6581CF881BA6A081001C6E45 /* purple.mp3 */,
+				6581CF891BA6A081001C6E45 /* red.mp3 */,
+				659A33D71C75C70E00FBF8C0 /* respawn.mp3 */,
+				6581CF8A1BA6A081001C6E45 /* shoot.mp3 */,
+				652B6C141C8335AD00AD1203 /* spark.mp3 */,
+				6581CF8B1BA6A081001C6E45 /* theme.mp3 */,
+				651AD2FC1C61C57900465716 /* title.mp3 */,
+				6507350C1C801174001384F9 /* win.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		65AE3BEB1C7E839600AFA243 /* Adventure */ = {
+			isa = PBXGroup;
+			children = (
+				65AE3BF01C7E8DB600AFA243 /* StoryDock.sks */,
+				65AE3BEE1C7E852800AFA243 /* Adventure1-1.sks */,
+				65AE3BF21C7E90BD00AFA243 /* Adventure1-2.sks */,
+				65AE3BF41C7E950A00AFA243 /* Adventure1-3.sks */,
+				65AE3BF51C7E950A00AFA243 /* Adventure1-4.sks */,
+				65AE3BF61C7E950A00AFA243 /* Adventure1-5.sks */,
+				65AE3BF71C7E950A00AFA243 /* Adventure1-6.sks */,
+				65AE3BF81C7E950A00AFA243 /* Adventure1-7.sks */,
+				651572421C7EC7CF00B2D9EF /* Adventure1-8.sks */,
+				656060AD1C7ECC88000EB738 /* Adventure1-9.sks */,
+				656060AF1C7ED01C000EB738 /* Adventure1-10.sks */,
+				656060B11C7ED03F000EB738 /* Adventure1-11.sks */,
+				656060B31C7ED314000EB738 /* Adventure1-12.sks */,
+				656060B51C7ED45E000EB738 /* Adventure1-13.sks */,
+				656060B71C7ED4EE000EB738 /* Adventure1-14.sks */,
+				656060B91C7ED584000EB738 /* Adventure1-15.sks */,
+				656060BB1C7ED6FE000EB738 /* Adventure1-16.sks */,
+				656060BD1C7ED792000EB738 /* Adventure1-17.sks */,
+				65C8035A1C7EDF1E00A3E9BF /* Adventure1-18.sks */,
+				65C8035C1C7EE16700A3E9BF /* Adventure2-1.sks */,
+				65C8035E1C7EE1A200A3E9BF /* Adventure2-2.sks */,
+				65C803601C7EE2E100A3E9BF /* Adventure2-3.sks */,
+				65C803621C7EE4F000A3E9BF /* Adventure3-1.sks */,
+				65C803641C7EE59100A3E9BF /* Adventure3-2.sks */,
+				65C803661C7EE65100A3E9BF /* Adventure3-3.sks */,
+				65C803681C7EE6DD00A3E9BF /* Adventure3-4.sks */,
+				65C8036A1C7EE79900A3E9BF /* Adventure3-5.sks */,
+				65C8036C1C7EE7EF00A3E9BF /* Adventure3-6.sks */,
+				65B707BF1C7EEA7D0023AE7C /* Adventure4-1.sks */,
+				65B707C11C7EF1890023AE7C /* Adventure4-2.sks */,
+				654F01701C7EF3E1006CE29B /* Adventure4-3.sks */,
+				650735021C8005DB001384F9 /* Adventure4-4.sks */,
+				650735031C8005DB001384F9 /* Adventure4-5.sks */,
+				650735041C8005DB001384F9 /* Adventure4-6.sks */,
+				650735051C8005DB001384F9 /* Adventure4-7.sks */,
+				650735061C8005DB001384F9 /* Adventure4-8.sks */,
+				650735101C803D02001384F9 /* Adventure5-1.sks */,
+				650735121C803DC1001384F9 /* Adventure5-2.sks */,
+				650735141C803E13001384F9 /* Adventure5-3.sks */,
+				650735161C803E56001384F9 /* Adventure5-4.sks */,
+				650735181C803F44001384F9 /* Adventure5-5.sks */,
+				6507351A1C803F99001384F9 /* Adventure5-6.sks */,
+				6507351C1C803FF3001384F9 /* Adventure5-7.sks */,
+				6507351E1C804097001384F9 /* Adventure5-8.sks */,
+			);
+			path = Adventure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		652485761B9EBE7E0098A60F /* Finder Zen 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 652485881B9EBE7E0098A60F /* Build configuration list for PBXNativeTarget "Finder Zen 2" */;
+			buildPhases = (
+				652485731B9EBE7E0098A60F /* Sources */,
+				652485741B9EBE7E0098A60F /* Frameworks */,
+				652485751B9EBE7E0098A60F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finder Zen 2";
+			productName = "Finder Zen 2";
+			productReference = 652485771B9EBE7E0098A60F /* Finder Zen 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6524856F1B9EBE7E0098A60F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Vince14Genius;
+				TargetAttributes = {
+					652485761B9EBE7E0098A60F = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 652485721B9EBE7E0098A60F /* Build configuration list for PBXProject "Finder Zen 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				ja,
+			);
+			mainGroup = 6524856E1B9EBE7E0098A60F;
+			productRefGroup = 652485781B9EBE7E0098A60F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				652485761B9EBE7E0098A60F /* Finder Zen 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		652485751B9EBE7E0098A60F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656060B61C7ED45E000EB738 /* Adventure1-13.sks in Resources */,
+				656060B01C7ED01C000EB738 /* Adventure1-10.sks in Resources */,
+				650735191C803F44001384F9 /* Adventure5-5.sks in Resources */,
+				652485811B9EBE7E0098A60F /* Assets.xcassets in Resources */,
+				6581CF971BA6A081001C6E45 /* game3.mp3 in Resources */,
+				65C803691C7EE6DE00A3E9BF /* Adventure3-4.sks in Resources */,
+				6581CF911BA6A081001C6E45 /* RedPoof.sks in Resources */,
+				659A33D81C75C70E00FBF8C0 /* respawn.mp3 in Resources */,
+				650735081C8005DB001384F9 /* Adventure4-5.sks in Resources */,
+				652B6C151C8335AD00AD1203 /* spark.mp3 in Resources */,
+				651AD2FD1C61C57900465716 /* title.mp3 in Resources */,
+				6534B7A91CD1E1CF009B9264 /* Localizable.strings in Resources */,
+				6507351B1C803F99001384F9 /* Adventure5-6.sks in Resources */,
+				656060BE1C7ED792000EB738 /* Adventure1-17.sks in Resources */,
+				650735171C803E56001384F9 /* Adventure5-4.sks in Resources */,
+				6581CF8D1BA6A081001C6E45 /* BluePoof.sks in Resources */,
+				656060B21C7ED03F000EB738 /* Adventure1-11.sks in Resources */,
+				6581CF961BA6A081001C6E45 /* game2.mp3 in Resources */,
+				65AE3BFD1C7E950A00AFA243 /* Adventure1-7.sks in Resources */,
+				6581CF8F1BA6A081001C6E45 /* SparkPoof.sks in Resources */,
+				6524858E1B9EC36F0098A60F /* Game1.sks in Resources */,
+				65C803611C7EE2E100A3E9BF /* Adventure2-3.sks in Resources */,
+				652485901B9EC37A0098A60F /* Game2.sks in Resources */,
+				65C8035B1C7EDF1E00A3E9BF /* Adventure1-18.sks in Resources */,
+				659714371C8964620017A81E /* Spark2.sks in Resources */,
+				650735091C8005DB001384F9 /* Adventure4-6.sks in Resources */,
+				654125F21CF6F440008B3EA7 /* Breathing.sks in Resources */,
+				6524857F1B9EBE7E0098A60F /* GameScene.sks in Resources */,
+				6506F3801C3952A80096C08E /* TitlePurple.sks in Resources */,
+				6507350D1C801175001384F9 /* win.mp3 in Resources */,
+				6507350F1C80259D001384F9 /* GameAdventureOver.sks in Resources */,
+				656060BC1C7ED6FE000EB738 /* Adventure1-16.sks in Resources */,
+				65AE3BFA1C7E950A00AFA243 /* Adventure1-4.sks in Resources */,
+				659714321C8963290017A81E /* Spark1.sks in Resources */,
+				650735131C803DC1001384F9 /* Adventure5-2.sks in Resources */,
+				652485921B9EC3820098A60F /* Game3.sks in Resources */,
+				65C803631C7EE4F000A3E9BF /* Adventure3-1.sks in Resources */,
+				656060B41C7ED314000EB738 /* Adventure1-12.sks in Resources */,
+				654F01711C7EF3E1006CE29B /* Adventure4-3.sks in Resources */,
+				656060AE1C7ECC88000EB738 /* Adventure1-9.sks in Resources */,
+				6506F37C1C39528B0096C08E /* TitleRed.sks in Resources */,
+				6581CF901BA6A081001C6E45 /* PurplePoof.sks in Resources */,
+				6581CF8C1BA6A081001C6E45 /* AndroidPoof.sks in Resources */,
+				65AE3BFC1C7E950A00AFA243 /* Adventure1-6.sks in Resources */,
+				651025B91C65B334000B45F1 /* GreenPoof.sks in Resources */,
+				6513964B1CC4D5F7005EE98B /* GameMenuScene.sks in Resources */,
+				65B707C21C7EF1890023AE7C /* Adventure4-2.sks in Resources */,
+				65AE3BEA1C7D68D000AFA243 /* SmitePoof.sks in Resources */,
+				65C8036D1C7EE7F000A3E9BF /* Adventure3-6.sks in Resources */,
+				659714381C8964620017A81E /* Spark3.sks in Resources */,
+				6507351D1C803FF3001384F9 /* Adventure5-7.sks in Resources */,
+				650735071C8005DB001384F9 /* Adventure4-4.sks in Resources */,
+				6506F37B1C39528B0096C08E /* TitleGreen.sks in Resources */,
+				6507351F1C804097001384F9 /* Adventure5-8.sks in Resources */,
+				65336EAE1C4351F100803E55 /* Back2.sks in Resources */,
+				65A3CC511CD0A85900FA5198 /* Bleed.sks in Resources */,
+				65C8035F1C7EE1A200A3E9BF /* Adventure2-2.sks in Resources */,
+				65A3CC531CD0DD8700FA5198 /* blast.mp3 in Resources */,
+				65336EAF1C4351F100803E55 /* Back3.sks in Resources */,
+				656060BA1C7ED584000EB738 /* Adventure1-15.sks in Resources */,
+				65AE3BF91C7E950A00AFA243 /* Adventure1-3.sks in Resources */,
+				6581CF9B1BA6A081001C6E45 /* purple.mp3 in Resources */,
+				650735151C803E13001384F9 /* Adventure5-3.sks in Resources */,
+				65AE3BF31C7E90BD00AFA243 /* Adventure1-2.sks in Resources */,
+				652485841B9EBE7E0098A60F /* MainMenu.xib in Resources */,
+				65336EB01C4351F100803E55 /* Back4.sks in Resources */,
+				65C8035D1C7EE16700A3E9BF /* Adventure2-1.sks in Resources */,
+				65C8036B1C7EE79900A3E9BF /* Adventure3-5.sks in Resources */,
+				6581CF991BA6A081001C6E45 /* lose.mp3 in Resources */,
+				6507350A1C8005DB001384F9 /* Adventure4-7.sks in Resources */,
+				6581CF981BA6A081001C6E45 /* game4.mp3 in Resources */,
+				6597143F1C8BFB650017A81E /* Spark4.sks in Resources */,
+				6581CF941BA6A081001C6E45 /* cyan.mp3 in Resources */,
+				65C803671C7EE65100A3E9BF /* Adventure3-3.sks in Resources */,
+				65336EAA1C43515500803E55 /* Back1.sks in Resources */,
+				650735111C803D02001384F9 /* Adventure5-1.sks in Resources */,
+				65AE3BFB1C7E950A00AFA243 /* Adventure1-5.sks in Resources */,
+				6581CF931BA6A081001C6E45 /* blue.mp3 in Resources */,
+				656060B81C7ED4EE000EB738 /* Adventure1-14.sks in Resources */,
+				65AE3BF11C7E8DB600AFA243 /* StoryDock.sks in Resources */,
+				652485941B9EC3890098A60F /* Game4.sks in Resources */,
+				65B707C01C7EEA7D0023AE7C /* Adventure4-1.sks in Resources */,
+				651572431C7EC7CF00B2D9EF /* Adventure1-8.sks in Resources */,
+				65C803651C7EE59100A3E9BF /* Adventure3-2.sks in Resources */,
+				6581CF9D1BA6A081001C6E45 /* shoot.mp3 in Resources */,
+				652DEF591BA02A0A00C8E10E /* GameOver.sks in Resources */,
+				6581CF921BA6A081001C6E45 /* spark.png in Resources */,
+				6507350B1C8005DB001384F9 /* Adventure4-8.sks in Resources */,
+				6506F37A1C39528B0096C08E /* TitleBlue.sks in Resources */,
+				6506F37F1C3952A80096C08E /* TitleCyan.sks in Resources */,
+				6581CF9A1BA6A081001C6E45 /* power.mp3 in Resources */,
+				6581CF8E1BA6A081001C6E45 /* CyanPoof.sks in Resources */,
+				6581CF951BA6A081001C6E45 /* game1.mp3 in Resources */,
+				6581CF9C1BA6A081001C6E45 /* red.mp3 in Resources */,
+				650C44201C82C82800736F9E /* GameConfirmScene.sks in Resources */,
+				6581CF9E1BA6A081001C6E45 /* theme.mp3 in Resources */,
+				65AE3BEF1C7E852800AFA243 /* Adventure1-1.sks in Resources */,
+				6524858C1B9EC28A0098A60F /* GameChallengeScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		652485731B9EBE7E0098A60F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6524857D1B9EBE7E0098A60F /* GameScene.swift in Sources */,
+				65AE3BED1C7E83AF00AFA243 /* GameAdventureController.swift in Sources */,
+				6513964D1CC4E0FD005EE98B /* GameMenuScene.swift in Sources */,
+				652DEF5F1BA032B100C8E10E /* Game3.swift in Sources */,
+				652DEF611BA032B700C8E10E /* Game4.swift in Sources */,
+				6524857B1B9EBE7E0098A60F /* AppDelegate.swift in Sources */,
+				652DEF5D1BA032AA00C8E10E /* Game2.swift in Sources */,
+				652DEF5B1BA0329300C8E10E /* Game1.swift in Sources */,
+				65123FFE1BA90AF0007C4B01 /* GameSharedFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		652485821B9EBE7E0098A60F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				652485831B9EBE7E0098A60F /* Base */,
+				6513964E1CC4E131005EE98B /* zh-Hans */,
+				4E05428121B960650067EF75 /* ja */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6534B7AB1CD1E1CF009B9264 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6534B7AA1CD1E1CF009B9264 /* Base */,
+				6534B7AC1CD1E1D4009B9264 /* zh-Hans */,
+				6534B7AD1CD1E1D9009B9264 /* en */,
+				4E05428221B960650067EF75 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		652485861B9EBE7E0098A60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		652485871B9EBE7E0098A60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		652485891B9EBE7E0098A60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Finder Zen 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vince14Genius.Finder-Zen-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		6524858A1B9EBE7E0098A60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Finder Zen 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vince14Genius.Finder-Zen-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		652485721B9EBE7E0098A60F /* Build configuration list for PBXProject "Finder Zen 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652485861B9EBE7E0098A60F /* Debug */,
+				652485871B9EBE7E0098A60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		652485881B9EBE7E0098A60F /* Build configuration list for PBXNativeTarget "Finder Zen 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				652485891B9EBE7E0098A60F /* Debug */,
+				6524858A1B9EBE7E0098A60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6524856F1B9EBE7E0098A60F /* Project object */;
+}

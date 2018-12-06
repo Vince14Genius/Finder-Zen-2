@@ -1,0 +1,45 @@
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "前置全部窗口";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "窗口";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "窗口";
+
+/* Class = "NSMenu"; title = "AMainMenu"; ObjectID = "29"; */
+"29.title" = "AMainMenu";
+
+/* Class = "NSMenuItem"; title = "Finder Zen 2"; ObjectID = "56"; */
+"56.title" = "Finder Zen 2";
+
+/* Class = "NSMenu"; title = "Finder Zen 2"; ObjectID = "57"; */
+"57.title" = "Finder Zen 2";
+
+/* Class = "NSMenuItem"; title = "About Finder Zen 2"; ObjectID = "58"; */
+"58.title" = "关于 Finder Zen 2";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "Hide Finder Zen 2"; ObjectID = "134"; */
+"134.title" = "隐藏 Finder Zen 2";
+
+/* Class = "NSMenuItem"; title = "Quit Finder Zen 2"; ObjectID = "136"; */
+"136.title" = "退出 Finder Zen 2";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "隐藏其他应用";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "显示所有应用";
+
+/* Class = "NSWindow"; title = "Finder Zen 2"; ObjectID = "371"; */
+"371.title" = "Finder Zen 2";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "537"; */
+"537.title" = "最小化";

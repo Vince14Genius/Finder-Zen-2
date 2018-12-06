@@ -1,0 +1,146 @@
+/* 
+  Localizable.strings
+  Finder Zen 2
+
+  Created by Vince14Genius on 4/28/16.
+  Copyright © 2016 Vince14Genius. All rights reserved.
+*/
+
+"TextStartDev" = "他のゲームを github.com/Vince14Genius に探してできます。";
+"MuteSoundX" = "X";
+"MuteMusicX" = "X";
+
+"Record1" = "レコード：0";
+"Record2" = "レコード：0";
+"Record3" = "レコード：0";
+"Record4" = "レコード：0";
+
+"TextConfirm" = "確認";
+"TextAreYouSure" = "本当に 0 へリセットしますか？";
+"recordFor" = "\"Awakened Adventure\"のレコード。";
+"buttonReset" = "リセット";
+"buttonCancel" = "キャンセル";
+
+"TextPaused" = "ゲームは一時停止です";
+
+"Score" = "0";
+"TextProgress" = "ゲ ー ム の 進 度";
+"TextLevel" = "難易度";
+"ValueLevel" = "1";
+
+"TextGameOver" = "ゲームが終わりました";
+"FinalScore" = "最後の点数：0";
+"Record" = "レコード：0";
+
+"TextSlain" = "Finder が殺されました。";
+"RestartLevel" = "このレベルをリスタートして";
+"MainMenu" = "メーンメニュー";
+
+"TextContinue" = "続けて欲しければ、クリックをしてください。";
+"WatchAgain" = "もう一回見って";
+
+
+"TextNewRecord" = "新しいレコード！！";
+"TextFinalScore" = "最後の点数：";
+"TextRecord" = "レコード：";
+"TextAA" = "\"Awakening Adventure\" のレコード。";
+"TextGG" = "\"Guarded Getaway\" のレコード。";
+"TextTT" = "\"Terminal's Test\" のレコード。";
+"TextBB" = "\"Boss Battle\" のレコード。";
+
+
+"1-1-1" = "Once upon a time there were two Finders,";
+"1-1-2" = "a teacher and an apprentice. ";
+"1-2-1" = "They lived peacefully and happily";
+"1-2-2" = "in the calm village of the Apps. ";
+"1-3-1" = "They practiced the ways of the colorful bubbles, ";
+"1-3-2" = "a source of energy in this universe. ";
+"1-4-1" = "This harmony continued for a long time. ";
+"1-5-1" = "Until one day...";
+"1-6-1" = "Wounded App";
+"1-6-2" = "The...the Androids are coming! You have to help us! ";
+"1-6-3" = "Our families are getting killed! ";
+"1-7-1" = "Elder Finder";
+"1-7-2" = "They will pay for what they have done! Come with me, young apprentice,";
+"1-7-3" = "it's time to beat up some Androids.";
+"1-9-1" = "They finally arrived at the Dark Lord's palace. ";
+"1-12-1" = "Finder";
+"1-12-2" = "NOOOOOOOOO!!!!!!!!!!";
+"1-13-1" = "Elder Finder";
+"1-13-2" = "Get out of here! Avenge us when you're ready.";
+"1-13-3" = "You're the village's only hope. Run!";
+"1-14-1" = "12 Years Later...";
+"1-15-1" = "Finder continued practicing his skills";
+"1-15-2" = "for 12 years, trying to master it. ";
+"1-16-1" = "He's finally ready to face his enemies! ";
+"1-17-1" = "Finder";
+"1-17-2" = "Teacher, I will avenge you. ";
+"1-18-1" = "Instructions";
+"1-18-2" = "Click anywhere to fire a blue bubble             . ";
+"1-18-3" = "Use blue bubbles to fight Androids           and don't let them reach you. ";
+"1-18-4" = "Shoot or let Finder touch a green bubble          to use a power-up. ";
+"2-1-1" = "Finder";
+"2-1-2" = "All clear. I'm on my way. ";
+"2-2-1" = "Android Guard";
+"2-2-2" = "This is our territory! You must not go through! ";
+"2-2-3" = "Guards, attack him! ";
+"2-3-1" = "Instructions";
+"2-3-2" = "Almost same as before, but now... There are red bubbles          .";
+"2-3-3" = "They are fired in your direction and cannot be destroyed by blue bubbles. ";
+"2-3-4" = "And now you can use A/D keys or Left/Right arrow keys to move and dodge. ";
+"2-3-5" = "Survive until you reach a certain distance. ";
+"3-1-1" = "Finder";
+"3-1-2" = "Finally away from those guards...";
+"3-1-3" = "I'm almost there! ";
+"3-2-1" = "Finder";
+"3-2-2" = "Terminal? Why are you here? ";
+"3-2-3" = "We haven't seen each other in 15 years!";
+"3-3-1" = "Terminal";
+"3-3-2" = "Elder Finder sent me here to spy on the Androids. ";
+"3-3-3" = "He passed me a secret message just before he died 12 years ago. ";
+"3-4-1" = "Terminal";
+"3-4-2" = "He told me to give these to you, and commanded me to battle you";
+"3-4-3" = "using the dark bubbles I learned here in the enemy's capital. ";
+"3-5-1" = "Terminal";
+"3-5-2" = "The enemy is powerful, so prove to me";
+"3-5-3" = "that you are ready. ";
+"3-6-1" = "Instructions";
+"3-6-2" = "Instead of moving sideways, now you move up and down ";
+"3-6-3" = "using the W/S keys or the Up/Down arrow keys. ";
+"3-6-4" = "There are also purple bubbles            , they come in extremely rapidly,";
+"3-6-5" = "but you can wipe them out easily with the quick cyan bubbles            , by";
+"3-6-6" = "moving and firing at the same time. ";
+"3-6-7" = "Defeat Terminal to prove that you're ready! ";
+"4-1-1" = "Terminal";
+"4-1-2" = "You have proven yourself to be powerful. ";
+"4-1-3" = "But beware, greater challenge is awaiting you! ";
+"4-2-1" = "Finder";
+"4-2-2" = "I am here to avenge my teacher";
+"4-2-3" = "and free my people. ";
+"4-3-1" = "Android Emperor";
+"4-3-2" = "Fool! You really think you can defeat me, the Android Emperor, ";
+"4-3-3" = "the ruler of all lands and manipulator of darkness? ";
+"4-4-1" = "Finder";
+"4-4-2" = "I now hold greater power than my teacher";
+"4-4-3" = "and I will not repeat his mistakes. ";
+"4-5-1" = "Android Emperor";
+"4-5-2" = "His only mistake was to have challenged ME.  ";
+"4-5-3" = "I am INVINCIBLE, and NOBODY can defeat me! ";
+"4-6-1" = "Finder";
+"4-6-2" = "There is no such thing as invincibility. ";
+"4-7-1" = "Android Emperor";
+"4-7-2" = "Then you shall face my wrath! ";
+"4-8-1" = "Instructions";
+"4-8-2" = "Use everything you've learned before to defeat the Android Emperor! ";
+"4-8-3" = "Quick tip: if Finder touches the green bubble, the power-up will be";
+"4-8-4" = "a burst of damage that scales with the damage you've already dealt! ";
+"5-1-1" = "Android Emperor";
+"5-1-2" = "How...? No... no way! It's... it's not... it's not possible! ";
+"5-1-3" = "My powers are supposed to be invincible! ";
+"5-2-1" = "Finder";
+"5-2-2" = "Like I said before, there is no such thing as invincibility. ";
+"5-2-3" = "And now you must pay for what you have done. ";
+"5-7-1" = "Finder returned to his village, ";
+"5-7-2" = "and everybody lived happily ever after. ";
+"5-8-1" = "Now you can try out the Challenge mode";
+"5-8-2" = "for practice, record-breaking, and fun! ";
