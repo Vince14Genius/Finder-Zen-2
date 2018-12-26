@@ -141,10 +141,12 @@ class Game3: SKScene, SKPhysicsContactDelegate {
         
         refreshPerFrame(currentTime)
         
+        /*
         if childNode(withName: "Terminal")!.position.y > 680 {
             childNode(withName: "//BaseEnemy")!.position.y = -75
         } else {
             childNode(withName: "//BaseEnemy")!.position.y = 75
         }
+        */
     }
 }

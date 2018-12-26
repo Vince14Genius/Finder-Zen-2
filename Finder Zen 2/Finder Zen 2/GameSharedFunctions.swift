@@ -175,16 +175,30 @@ func projectilePhysicsBody(_ contactBitMask: UInt32) -> SKPhysicsBody {
 
 //This function generates a particle effect
 
+var particleBank = [String: SKNode]()
+
+func findPoof(_ name: String) -> SKNode {
+    if let node = particleBank[name] {
+        return node.copy() as! SKNode
+    } else {
+        guard let node = SKNode(fileNamed: name) else {
+            fatalError("FatalError: Unable to load resource named \(name)")
+        }
+        particleBank[name] = node
+        return node.copy() as! SKNode
+    }
+}
+
 func addPoof(_ name: String, position: CGPoint, duration: TimeInterval) {
     let poof: SKNode
     if name == "SparkPoof" {
-        let tempChild = SKNode(fileNamed: name)!.childNode(withName: name)!
+        let tempChild = findPoof(name).childNode(withName: name)!
         tempChild.removeFromParent()
         poof = tempChild
         Finder.addChild(poof)
         poof.zPosition = 0.5
     } else {
-        poof = SKNode(fileNamed: name)!
+        poof = findPoof(name)
         poof.position = position
         currentScene.addChild(poof)
         poof.zPosition = 9.5
@@ -196,7 +210,7 @@ func addPoof(_ name: String, position: CGPoint, duration: TimeInterval) {
 
 func fireBlue(_ point: CGPoint) {
     if attackCooldown == 0 {
-        let projectile = SKSpriteNode(imageNamed: "BallBlue")
+        let projectile = GameResources.blueBubble.copy() as! SKSpriteNode
         projectile.zPosition = 2
         projectile.position = Finder.position
         projectile.physicsBody = projectilePhysicsBody(contactBitMask_Blue)
@@ -218,7 +232,7 @@ func fireBlue(_ point: CGPoint) {
 
 func fireCyan(_ point: CGPoint) {
     if alternateAttackCooldown == 0 {
-        let projectile = SKSpriteNode(imageNamed: "BallCyan")
+        let projectile = GameResources.cyanBubble.copy() as! SKSpriteNode
         projectile.zPosition = 1
         projectile.position = Finder.position
         projectile.physicsBody = projectilePhysicsBody(contactBitMask_Cyan)
@@ -239,7 +253,7 @@ func fireCyan(_ point: CGPoint) {
 }
 
 func fireRed(_ point: CGPoint) {
-    let projectile = SKSpriteNode(imageNamed: "BallRed")
+    let projectile = GameResources.redBubble.copy() as! SKSpriteNode
     projectile.zPosition = 3
     projectile.position = point
     projectile.physicsBody = projectilePhysicsBody(contactBitMask_Red)
@@ -255,7 +269,7 @@ func fireRed(_ point: CGPoint) {
 }
 
 func firePurple(_ point: CGPoint) {
-    let projectile = SKSpriteNode(imageNamed: "BallPurple")
+    let projectile = GameResources.purpleBubble.copy() as! SKSpriteNode
     projectile.zPosition = 1
     projectile.position = point
     projectile.physicsBody = projectilePhysicsBody(contactBitMask_Purple)
@@ -271,7 +285,7 @@ func firePurple(_ point: CGPoint) {
 }
 
 func fireAndroid(fromPoint point: CGPoint, toPoint target: CGPoint) {
-    let projectile = SKSpriteNode(imageNamed: "Android")
+    let projectile = GameResources.android.copy() as! SKSpriteNode
     projectile.zPosition = 4
     projectile.position = point
     projectile.physicsBody = projectilePhysicsBody(contactBitMask_Android)
@@ -285,7 +299,7 @@ func spawnGreen() {
     let randomGreen = arc4random() % 10
     if randomGreen == 0 { //Normal Code
     //if randomGreen < 5 { //Debug Code
-        let projectile = SKSpriteNode(imageNamed: "BallGreen")
+        let projectile = GameResources.greenBubble.copy() as! SKSpriteNode
         projectile.zPosition = 5
         projectile.position = ballRand()
         projectile.physicsBody = projectilePhysicsBody(contactBitMask_Green)
@@ -307,7 +321,9 @@ func contactSort(_ contact: SKPhysicsContact) {
 
 func contactTest(_ bodyA: SKPhysicsBody, _ bodyB: SKPhysicsBody) {
     if let contactNodeA = bodyA.node {
+        guard contactNodeA.parent != nil else { return }
         if let contactNodeB = bodyB.node {
+            guard contactNodeB.parent != nil else { return }
             switch bodyA.contactTestBitMask {
             case contactBitMask_Finder:
                 switch bodyB.contactTestBitMask {
@@ -535,7 +551,7 @@ func emptyHealthAction(_ endBlock: @escaping ()->()) {
             Finder.yScale = 1
         }), .wait(forDuration: 0.01)]), count: 75), completion: endBlock)
     
-    let boom = SKSpriteNode(imageNamed: "boom")
+    let boom = GameResources.boom.copy() as! SKSpriteNode
     boom.xScale = 0.1
     boom.yScale = 0.1
     boom.zPosition = 9
@@ -815,10 +831,11 @@ func refreshPerFrame(_ currentTime: TimeInterval) {
         
         //Cheat tester
         
-        if score > Int(oldFrameScore)! + 35 {
-            fatalError("Fuck you cheater!")
+        let scoreDelta = score - Int(oldFrameScore)!
+        if scoreDelta > 50 {
+            fatalError("Fuck you cheater! (Δ: \(scoreDelta))")
         }
-        
+ 
         oldFrameScore = "\(score)"
         
         //Final changes in the frame update

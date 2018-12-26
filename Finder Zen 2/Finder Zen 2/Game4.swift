@@ -18,7 +18,7 @@ class Game4: SKScene, SKPhysicsContactDelegate {
     var clickedButton = buttons.none
     
     func massacreChild(_ destination: CGPoint) {
-        let projectile = SKSpriteNode(imageNamed: "BallRed")
+        let projectile = GameResources.redBubble.copy() as! SKSpriteNode
         projectile.zPosition = 3
         projectile.position = childNode(withName: "Boss")!.position
         projectile.physicsBody = projectilePhysicsBody(contactBitMask_Red)

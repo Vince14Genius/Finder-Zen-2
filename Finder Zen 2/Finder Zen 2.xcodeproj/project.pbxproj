@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E91DD1121C0D1D500126014 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91DD1021C0D1D500126014 /* Resources.swift */; };
 		6506F37A1C39528B0096C08E /* TitleBlue.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6506F3771C39528B0096C08E /* TitleBlue.sks */; };
 		6506F37B1C39528B0096C08E /* TitleGreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6506F3781C39528B0096C08E /* TitleGreen.sks */; };
 		6506F37C1C39528B0096C08E /* TitleRed.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6506F3791C39528B0096C08E /* TitleRed.sks */; };
@@ -119,6 +120,7 @@
 /* Begin PBXFileReference section */
 		4E05428121B960650067EF75 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		4E05428221B960650067EF75 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4E91DD1021C0D1D500126014 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		6506F3771C39528B0096C08E /* TitleBlue.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleBlue.sks; sourceTree = "<group>"; };
 		6506F3781C39528B0096C08E /* TitleGreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleGreen.sks; sourceTree = "<group>"; };
 		6506F3791C39528B0096C08E /* TitleRed.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TitleRed.sks; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 				6524857A1B9EBE7E0098A60F /* AppDelegate.swift */,
 				6524857C1B9EBE7E0098A60F /* GameScene.swift */,
 				65123FFD1BA90AF0007C4B01 /* GameSharedFunctions.swift */,
+				4E91DD1021C0D1D500126014 /* Resources.swift */,
 				6513964C1CC4E0FD005EE98B /* GameMenuScene.swift */,
 				652DEF5A1BA0329300C8E10E /* Game1.swift */,
 				652DEF5C1BA032AA00C8E10E /* Game2.swift */,
@@ -579,6 +582,7 @@
 				6524857D1B9EBE7E0098A60F /* GameScene.swift in Sources */,
 				65AE3BED1C7E83AF00AFA243 /* GameAdventureController.swift in Sources */,
 				6513964D1CC4E0FD005EE98B /* GameMenuScene.swift in Sources */,
+				4E91DD1121C0D1D500126014 /* Resources.swift in Sources */,
 				652DEF5F1BA032B100C8E10E /* Game3.swift in Sources */,
 				652DEF611BA032B700C8E10E /* Game4.swift in Sources */,
 				6524857B1B9EBE7E0098A60F /* AppDelegate.swift in Sources */,
