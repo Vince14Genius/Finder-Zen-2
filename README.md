@@ -10,7 +10,7 @@ Source: "Finder Zen 2/"
 
 ## Disclaimer
 
-This code is written in 2015-2016 and does not fully reflect my current ability, standard, or style of coding. 
+This code was written in 2015-2016 and does not fully reflect my current ability, standard, or style of coding. 
 
 DO NOT ATTEMPT to understand, modify, or refactor this source code, because it is so poorly structured and poorly documented that doing so will only waste your valuable time. 
 
